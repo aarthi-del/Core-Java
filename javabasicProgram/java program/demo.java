@@ -1,0 +1,66 @@
+/*class Aarthi 
+{
+	public static void main(String[] args) throws Exception
+	{
+		int a=13;
+		int b=23;
+		char ch;
+		System.out.println(a);
+		ch='a';
+		System.out.println(b);
+		String java="tabrez sir";
+		Thread.sleep(4000);
+		System.out.println(java);
+
+	}
+}
+
+
+	class program2
+	{
+		public static void main(String[] args)
+		{	
+		int res1=45;
+		float res2=22.768853540752254959f;
+		double res3=12.34566778908766543;
+		long res4=65478738435637l;
+		System.out.println(res4);
+		System.out.println(res3);
+		System.out.println(res2);
+		System.out.println(res1);
+	}
+
+	}*/
+
+
+
+	//static variables default values
+
+    class demo1
+    {
+		// global variable declaration
+		 static int a=15;
+		 static long b=4567;
+		static short c=45;
+		static byte d=34;
+		static float e=45.89f;
+		static double f=89.00;
+		static boolean g;
+		static char h='h';
+		public static void main (String[] args)
+		{
+
+			int a=20;
+			System.out.println(demo1.a);
+			System.out.println(b);
+			System.out.println(c);
+			System.out.println(d);
+			System.out.println(e);
+			double f=44.34;
+			System.out.println(demo1.f);
+			System.out.println(g);
+			System.out.println(h);
+			} 
+	}
+
+	

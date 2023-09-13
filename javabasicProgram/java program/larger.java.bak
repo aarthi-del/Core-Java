@@ -1,0 +1,105 @@
+class trace
+{
+	public static void main(String[] args) 
+	{
+		int a=45;
+		char b=(char)a;
+		System.out.println(b);//it eill give a symbol and char based on the ascii values
+	}
+}
+
+
+
+class student
+{
+	static String sname="aarthi";
+	static  int sid=34;
+	static double smarks=90;
+	public static void main(String[] args)
+	{
+		String sname="dinga";
+		int sid=45;
+		double smarks=34;
+		System.out.println("**********"+"\"studentdetals\""+"**********");
+		System.out.println("the student name is "+student.sname);
+		System.out.println("the student id  is "+student.sid);
+		System.out.println("the student marks is "+student.smarks);
+		System.out.println("************"+"\"OVER\""+"****************");
+		System.out.println("the student name is "+sname);
+		System.out.println("the student id is "+sid);
+		System.out.println("the student mark  is "+smarks);
+		
+	}
+}
+
+
+class SweetSheela
+{  
+	static double wallet=1500;
+	public static void main(String[] args)
+	{
+		 System.out.println("initial amount is "+wallet);
+		 double spent=56;
+		 System.out.println("amount spent is "+spent);
+		 wallet=wallet-spent;
+		 System.out.println("available amount is "+wallet);
+
+		
+	}
+}
+
+
+class demo1
+{
+	public static void main(String[] args)
+	{
+		int a=3456;
+		int d=a/10;
+		System.out.println("the given value is"+a);
+		System.out.println("the decreased value is "+d);
+		a=a/10;
+		System.out.println("the decreased value is "+a);
+
+
+	}
+}
+
+class digit
+{
+	public static void main(String[] args)
+	{
+		int a=345,n=100,last=0;
+		last=a%n;
+		System.out.println(last);
+
+		
+	}
+}
+
+/*class Swap
+{
+	public static void main(String[] args)
+	{
+		int a=12,b=34,temp=0;
+		System.out.println("before swapping: "+a);
+		System.out.println("before swapping: "+b);
+		temp=a;
+		a=b;
+		b=temp;
+		System.out.println("after swapping: "+a);
+		System.out.println("after swapping: "+b);
+		
+	}
+}*/
+
+
+class largest3
+{
+	public static void main(String[] args)
+	{
+		int a=12,b=100,c=78,temp=0;
+		int temp=(a>b)?a:b;
+		int larger=(temp>c)?temp:c;
+		System.out.println(larger);
+	}
+}
